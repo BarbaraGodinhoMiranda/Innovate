@@ -15,7 +15,7 @@ public class databaseconfig {
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/progetto");
         dataSource.setUsername("root");
-        dataSource.setPassword("mapjyx-dUpruf-tympo2");
+        dataSource.setPassword("xxxxxxxxxxxxxxx");
         return dataSource;
     }
  
