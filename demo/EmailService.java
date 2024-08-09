@@ -22,7 +22,7 @@ public class EmailService {
     public void sendEmailWithImage(String from, String subject, String text, ArrayList<String> imagePaths) throws MessagingException {
         MimeMessage mimeMessage = mailSender.createMimeMessage();
         MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true); {
-        	 helper.setTo("barbaragodinho19@gmail.com");
+        	 helper.setTo("xxxxxxxxxxxxx@gmail.com");
              helper.setSubject(subject);
              helper.setFrom(from);
 
